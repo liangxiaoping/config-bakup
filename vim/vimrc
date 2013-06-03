@@ -1,0 +1,17 @@
+
+set tabstop=4 
+set softtabstop=4 
+set shiftwidth=4 
+set expandtab 
+set autoindent 
+"set number
+
+"Taglist
+let Tlist_Show_One_File = 1
+
+"Pythoncomplete
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+
+"Pydiction
+let g:pydiction_location = '/usr/share/vim/vim73/pydiction/complete-dict'
+let g:pydiction_menu_height = 15

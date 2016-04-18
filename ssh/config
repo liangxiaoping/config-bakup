@@ -8,5 +8,6 @@ Port 22
 identityfile ~/.ssh/github
 
 Host *
-  ServerAliveInterval 60 
+  ServerAliveInterval 60
+  StrictHostKeyChecking no
   user root

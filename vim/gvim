@@ -1,0 +1,22 @@
+
+# C:\Program Files (x86)\Vim\_vimrc
+
+colorscheme desert
+syntax enable
+syntax on
+filetype on
+
+set nu!
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set hlsearch
+set ruler
+
+set guifont=Monaco:h12:cANSI,Consolas:h12
+
+set encoding=utf-8
+set fileencodings=utf-8,gbk,gb18030,gk2312
+language messages zh_CN.utf-8
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
